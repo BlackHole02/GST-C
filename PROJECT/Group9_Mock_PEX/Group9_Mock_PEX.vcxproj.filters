@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="PEX_Project">
+      <UniqueIdentifier>{709a9f4c-7944-43f1-92ed-2d830c05d7c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PEX_Project\interface">
+      <UniqueIdentifier>{76e5be27-f032-42ef-8f1b-da473ad1982a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PEX_Project\source">
+      <UniqueIdentifier>{eb07d702-57c6-41cd-945c-ac8ed064f5fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PEX_Project\interface\DrawingModule">
+      <UniqueIdentifier>{f30e60bb-c5e3-4388-a74b-0562e538e169}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PEX_Project\source\DrawingModule">
+      <UniqueIdentifier>{563c3e0e-cda8-4017-8036-686b3e1d88f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PEX_Project\interface\ShapeModule">
+      <UniqueIdentifier>{ccd2fd73-a6a0-40f8-9752-de33f454f443}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PEX_Project\source\ShapeModule">
+      <UniqueIdentifier>{4b242dba-bdda-44c4-bfcb-a1cd99537d66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PEX_Project\interface\Event">
+      <UniqueIdentifier>{6832676c-9121-4c36-9f56-524a7be9b6ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PEX_Project\source\Event">
+      <UniqueIdentifier>{8d7a7384-1182-4572-880a-5c41298cd5d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PEX_Project\interface\Mouse">
+      <UniqueIdentifier>{9a567ec1-a408-48f3-ba5b-db6264ee0750}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PEX_Project\source\Mouse">
+      <UniqueIdentifier>{03aa95e5-1f48-4ea2-bdb0-8efaef6af32f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Group9_Mock_PEX.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Group9_Mock_PEXDoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Group9_Mock_PEXView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bitmap.h">
+      <Filter>PEX_Project\interface\DrawingModule</Filter>
+    </ClInclude>
+    <ClInclude Include="hdc_controller.h">
+      <Filter>PEX_Project\interface\DrawingModule</Filter>
+    </ClInclude>
+    <ClInclude Include="header.h">
+      <Filter>PEX_Project\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="event_processing.h">
+      <Filter>PEX_Project\interface\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="mouse_moving.h">
+      <Filter>PEX_Project\interface\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="ShapeEx.h">
+      <Filter>PEX_Project\interface\ShapeModule</Filter>
+    </ClInclude>
+    <ClInclude Include="LineEx.h">
+      <Filter>PEX_Project\interface\ShapeModule</Filter>
+    </ClInclude>
+    <ClInclude Include="List.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RectangleEx.h">
+      <Filter>PEX_Project\interface\ShapeModule</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Group9_Mock_PEX.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Group9_Mock_PEXDoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Group9_Mock_PEXView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bitmap.cpp">
+      <Filter>PEX_Project\source\DrawingModule</Filter>
+    </ClCompile>
+    <ClCompile Include="hdc_controller.cpp">
+      <Filter>PEX_Project\source\DrawingModule</Filter>
+    </ClCompile>
+    <ClCompile Include="mouse_moving.cpp">
+      <Filter>PEX_Project\source\Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="event_processing.cpp">
+      <Filter>PEX_Project\source\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="ShapeEx.cpp">
+      <Filter>PEX_Project\source\ShapeModule</Filter>
+    </ClCompile>
+    <ClCompile Include="LineEx.cpp">
+      <Filter>PEX_Project\source\ShapeModule</Filter>
+    </ClCompile>
+    <ClCompile Include="RectangleEx.cpp">
+      <Filter>PEX_Project\source\ShapeModule</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Group9_Mock_PEX.reg" />
+    <None Include="res\Group9_Mock_PEX.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Group9_Mock_PEX.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Group9_Mock_PEXDoc.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Group9_Mock_PEX.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
