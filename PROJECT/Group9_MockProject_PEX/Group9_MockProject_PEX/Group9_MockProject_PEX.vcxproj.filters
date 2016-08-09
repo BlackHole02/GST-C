@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="MockProject">
+      <UniqueIdentifier>{3c07f3eb-c1e3-4198-b5e4-19e88eb0ec41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MockProject\interface">
+      <UniqueIdentifier>{bfb980c1-0c3f-4754-b749-ab537dc1b7b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MockProject\source">
+      <UniqueIdentifier>{712749ee-dafa-41ca-8af5-3f428f6b4933}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MockProject\interface\DrawingModule">
+      <UniqueIdentifier>{da1dfd30-3024-4e1d-a5f4-22a12818ee16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MockProject\source\DrawingModule">
+      <UniqueIdentifier>{f7703881-ea1b-41c3-8acd-ef4d9a696763}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MockProject\interface\Mouse">
+      <UniqueIdentifier>{22482329-e921-4b04-8790-128c21a46c53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MockProject\source\Mouse">
+      <UniqueIdentifier>{0c686317-8927-49d7-9f75-13fa7dba70ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MockProject\interface\ShapeModule">
+      <UniqueIdentifier>{e7251daa-5077-4f20-a299-cf1badef1295}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MockProject\source\ShapeModule">
+      <UniqueIdentifier>{9bbf8b5b-da44-4359-bde8-b45af9d0f2a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MockProject\interface\DrawingModule\View">
+      <UniqueIdentifier>{33a42cf7-9737-4ca5-9f36-185c526dd4cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MockProject\source\DrawingModule\View">
+      <UniqueIdentifier>{b6f1a483-bf48-427b-b48b-5d7db70e1739}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Group9_MockProject_PEX.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Group9_MockProject_PEXDoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bitmap.h">
+      <Filter>MockProject\interface\DrawingModule</Filter>
+    </ClInclude>
+    <ClInclude Include="mouse_moving.h">
+      <Filter>MockProject\interface\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="LineEx.h">
+      <Filter>MockProject\interface\ShapeModule</Filter>
+    </ClInclude>
+    <ClInclude Include="RectangleEx.h">
+      <Filter>MockProject\interface\ShapeModule</Filter>
+    </ClInclude>
+    <ClInclude Include="MockProject_PEXView.h">
+      <Filter>MockProject\interface\DrawingModule\View</Filter>
+    </ClInclude>
+    <ClInclude Include="ImportHeader.h">
+      <Filter>MockProject</Filter>
+    </ClInclude>
+    <ClInclude Include="List.h">
+      <Filter>MockProject\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="EllipseEx.h">
+      <Filter>MockProject\interface\ShapeModule</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleEx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TriangleEx.h">
+      <Filter>MockProject\interface\ShapeModule</Filter>
+    </ClInclude>
+    <ClInclude Include="ShapeEx.h">
+      <Filter>MockProject\interface\ShapeModule</Filter>
+    </ClInclude>
+    <ClInclude Include="Rhombus.h">
+      <Filter>MockProject\interface\ShapeModule</Filter>
+    </ClInclude>
+    <ClInclude Include="HexagonEx.h">
+      <Filter>MockProject\interface\ShapeModule</Filter>
+    </ClInclude>
+    <ClInclude Include="PentagonEx.h">
+      <Filter>MockProject\interface\ShapeModule</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Group9_MockProject_PEX.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Group9_MockProject_PEXDoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bitmap.cpp">
+      <Filter>MockProject\source\DrawingModule</Filter>
+    </ClCompile>
+    <ClCompile Include="mouse_moving.cpp">
+      <Filter>MockProject\source\Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="ShapeEx.cpp">
+      <Filter>MockProject\source\ShapeModule</Filter>
+    </ClCompile>
+    <ClCompile Include="LineEx.cpp">
+      <Filter>MockProject\source\ShapeModule</Filter>
+    </ClCompile>
+    <ClCompile Include="RectangleEx.cpp">
+      <Filter>MockProject\source\ShapeModule</Filter>
+    </ClCompile>
+    <ClCompile Include="MockProject_PEXView.cpp">
+      <Filter>MockProject\source\DrawingModule\View</Filter>
+    </ClCompile>
+    <ClCompile Include="EllipseEx.cpp">
+      <Filter>MockProject\source\ShapeModule</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleEx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TriangleEx.cpp">
+      <Filter>MockProject\source\ShapeModule</Filter>
+    </ClCompile>
+    <ClCompile Include="Rhombus.cpp">
+      <Filter>MockProject\source\ShapeModule</Filter>
+    </ClCompile>
+    <ClCompile Include="HexagonEx.cpp">
+      <Filter>MockProject\source\ShapeModule</Filter>
+    </ClCompile>
+    <ClCompile Include="PentagonEx.cpp">
+      <Filter>MockProject\source\ShapeModule</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Group9_MockProject_PEX.reg" />
+    <None Include="res\Group9_MockProject_PEX.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Group9_MockProject_PEX.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Group9_MockProject_PEXDoc.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Group9_MockProject_PEX.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

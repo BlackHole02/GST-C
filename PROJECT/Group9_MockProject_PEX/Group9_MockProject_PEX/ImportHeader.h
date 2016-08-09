@@ -1,0 +1,12 @@
+#pragma once
+#include"bitmap.h"
+#include"RectangleEx.h"
+#include"LineEx.h"
+#include"mouse_moving.h"
+#include"List.h"
+#include"EllipseEx.h"
+#include"CircleEx.h"
+#include"TriangleEx.h"
+#include"Rhombus.h"
+#include"PentagonEx.h"
+#include"HexagonEx.h"
